@@ -5,9 +5,9 @@ public class MyArrayList<T>{
         private int capacity;
 
         MyArrayList(){
-                capacity =  10;
-                data     =  new Object[capacity];
-                size     =  0;
+                capacity = 10;
+                data = new Object[capacity];
+                size = 0;
         }
 
         public void add(T element){
